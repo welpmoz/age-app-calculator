@@ -2,6 +2,9 @@
 
 This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+## Preview site
+
+You can preview the site at: [My solution](https://fir-auth-eefe5.web.app/)
 ## Table of contents
 
 - [Overview](#overview)
