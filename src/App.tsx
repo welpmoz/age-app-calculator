@@ -1,4 +1,5 @@
 import React from 'react'
+import icon from "./assets/images/icon-arrow.svg";
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
         <div className='rule-button'>
           <hr className='rule' />
           <button className='icon' type='submit'>
-            <img src="../assets/images/icon-arrow.svg" alt="down arrow - submit" className='my-image'/>
+            <img src={icon} alt="down arrow - submit" className='my-image'/>
           </button>
         </div>
       </form>
@@ -44,6 +45,8 @@ const App = () => {
           </p>
         </div>
       </div>
+
+      <h1>Ultimo agregado para webear</h1>
     </div>
   )
 }
