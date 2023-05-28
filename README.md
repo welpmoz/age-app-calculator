@@ -5,19 +5,31 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 ## Preview site
 
 You can preview the site at: [My solution](https://fir-auth-eefe5.web.app/)
+
+## For run this project
+
+1. Clone this repo `git clone https://github.com/welpmoz/age-app-calculator.git`
+2. Install npm dependencies `npm install`
+3. Compile file sass for generate css `sass ./src/styles.scss:.src/styles.css`
+4. Run project `npm run dev`
+
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Age calculator app solution](#frontend-mentor---age-calculator-app-solution)
+  - [Preview site](#preview-site)
+  - [For run this project](#for-run-this-project)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -59,7 +71,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
+- Semantic HTML5 markup 
 - CSS custom properties
 - Flexbox
 - CSS Grid
