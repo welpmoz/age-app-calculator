@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+$purple: #854cff;
+$light-red: #ff5757;
+$white: #ffffff;
+$off-white: #f0f0f0;
+$light-gray: #dbdbdb;
+$smokey-gray: #716f6f;
+$off-black: #141414;
+
+$width-mobile: 375;
+$height-mobile: 812;
+$width-target: 100vw;
+$height-target: 100vh;
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: $off-white;
+  padding: 8.8rem 1.5rem 23.7rem 1.5rem;
+}
+
+.app {
+  width: 34.5rem;
+  background-color: $white;
+  border-radius: 4rem 4rem 10rem 4rem;
+  padding: 5.3rem 2.4rem 6rem 2.4rem;
+}
+
+.form-label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  color: $smokey-gray;
+}
+
+.form-control {
+  width: 8.8rem;
+  height: 5.2rem;
+  padding: 1.9rem 0 1.9rem 1.6rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: $off-black;
+  border: 0.1rem solid $light-gray;
+  border-radius: 0.7rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rule-button {
+  position: relative;
+  height: 6.4rem;
+  margin-top: 3.3rem;
+  margin-bottom: 4.4rem;
+
+  & > .icon {
+    position: absolute;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    background-color: $purple;
+  }
+
+  .icon > .my-image {
+    width: 2.8rem;
+  }
+
+  & > .rule {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0.2rem;
+    width: 100%;
+    background-color: $light-gray;
+  }
+}
+
+.font-result {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 5.2rem;
+  line-height: 8.2rem;
+  color: $off-black;
+}
+
+.purple-color {
+  color: $purple;
+}
+
+

@@ -2,45 +2,49 @@ import React from 'react'
 
 const App = () => {
   return (
-    <>
+    <div className='app'>
       <form>
-        <div>
-          <span>day</span>
-          <input type="text" />
+        <div className='form'>
+          <div>
+            <p className='form-label'>day</p>
+            <input type="text" className='form-control' maxLength={2} />
+          </div>
+          <div>
+            <p className='form-label'>month</p>
+            <input type="text" className='form-control' maxLength={2} />
+          </div>
+          <div>
+            <p className='form-label'>year</p>
+            <input type="text" className='form-control' maxLength={4} />
+          </div>
         </div>
-        <div>
-          <span>month</span>
-          <input type="text" />
-        </div>
-        <div>
-          <span>year</span>
-          <input type="text" />
+
+        <div className='rule-button'>
+          <hr className='rule' />
+          <button className='icon' type='submit'>
+            <img src="../assets/images/icon-arrow.svg" alt="down arrow - submit" className='my-image'/>
+          </button>
         </div>
       </form>
 
       <div>
-        <hr />
-        <button>Mi icono</button>
-      </div>
-
-      <div>
         <div>
-          <p>
-            <span>--</span> years
+          <p className='font-result'>
+            <span className='purple-color'>--</span> years
           </p>
         </div>
         <div>
-          <p>
-            <span>--</span> months
+          <p className='font-result'>
+            <span className='purple-color'>--</span> months
           </p>
         </div>
         <div>
-          <p>
-            <span>--</span> days
+          <p className='font-result'>
+            <span className='purple-color'>--</span> days
           </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
